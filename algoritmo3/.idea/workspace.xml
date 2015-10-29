@@ -73,19 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomaNaturais.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SomaNaturais.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturais.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="17" column="39" selection-start="473" selection-end="473" vertical-scroll-proportion="0.2924312" vertical-offset="0" max-vertical-offset="872">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomaNaturaisTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SomaNaturaisTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturaisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="42" selection-start="563" selection-end="563" vertical-scroll-proportion="0.36123854" vertical-offset="0" max-vertical-offset="872">
+            <state line="29" column="42" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -102,9 +102,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturais.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturaisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturais.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -503,12 +510,12 @@
       <changelist id="0cb8b136-46c7-43a8-97b3-d6ce2ae328b6" name="Default" comment="" />
       <created>1446160368465</created>
       <updated>1446160368465</updated>
-      <workItem from="1446160369611" duration="1043000" />
+      <workItem from="1446160369611" duration="2571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1043000" />
+    <option name="totallyTimeSpent" value="2571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="481" y="10" width="1400" height="1000" extended-state="0" />
@@ -563,6 +570,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturaisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="42" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="10" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
@@ -572,14 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturais.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/ufg/inf/es/construcao/somaNaturais/SomaNaturaisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="563" selection-end="563" vertical-scroll-proportion="0.36123854" vertical-offset="0" max-vertical-offset="872">
+        <state line="17" column="39" selection-start="473" selection-end="473" vertical-scroll-proportion="0.2924312" vertical-offset="0" max-vertical-offset="872">
           <folding />
         </state>
       </provider>

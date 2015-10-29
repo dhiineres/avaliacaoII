@@ -7,10 +7,13 @@ package br.ufg.inf.es.construcao.somaNaturais;
 public class SomaNaturais {
 
     /**
-     * Realiza o somatório.
+     * Soma os primeiros naturais.
      *
-     * @param n Número natural indicador de maior elemento da soma.
-     * @return O somatório dos numeros <= n;
+     * @param n Primeiros naturais a serem somados.
+     * @return A soma dos primeiros n naturais.
+     *
+     * @throws java.lang.IllegalArgumentException Se o argumento n for menor
+     *          que 1.
      */
     public static int somatorio(int n){
         if (n < 1){

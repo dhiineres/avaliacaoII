@@ -15,6 +15,7 @@
 		<module>algoritmo2</module>
 		<module>algoritmo3</module>
 		<module>algoritmo4</module>
+		<module>algoritmo5</module>
     </modules>
 
     <build>

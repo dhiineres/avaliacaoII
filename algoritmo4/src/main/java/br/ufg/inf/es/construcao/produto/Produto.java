@@ -1,10 +1,20 @@
 package br.ufg.inf.es.construcao.produto;
 
 /**
- * Created by alunoinf on 29/10/15.
+ * Algoritmo para realização de operações de multiplicação com uso de somas;
  */
 public class Produto {
 
+    /**
+     * realiza a operação de multiplicação entre dois inteiros;
+     * @param a primeiro fator;
+     * @param b segundo fator;
+     * @return o resultado da multiplicação;
+     * @throws IllegalArgumentException caso os parâmetros de entrada estejam
+     * inadequados;
+     * a deve ser maior que zero, inclusive
+     * b deve ser maior que zero.
+     */
     public static int produto(int a, int b){
         if (a < 0 || b < 0){
             throw new IllegalArgumentException("Parâmetros inválidos");

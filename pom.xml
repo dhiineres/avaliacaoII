@@ -8,7 +8,7 @@
     <artifactId>Construcao</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <name>Exemplos Construção de Software</name>
+    <name>Avaliação Construção de Software</name>
 
     <modules>
 		<module>algoritmo1</module>
@@ -27,6 +27,7 @@
 		<module>algoritmo14</module>
 		<module>algoritmo15</module>
 		<module>algoritmo16</module>
+		<module>algoritmo17</module>
     </modules>
 
     <build>

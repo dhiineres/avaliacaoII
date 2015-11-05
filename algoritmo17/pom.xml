@@ -17,7 +17,7 @@
 
         <dependency>
             <groupId>br.ufg.inf.es.construcao</groupId>
-            <artifactId>algoritmo174</artifactId>
+            <artifactId>algoritmo4</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

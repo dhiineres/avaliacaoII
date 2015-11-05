@@ -16,7 +16,6 @@ public class FatorialTest {
     @Test
     public void testCasosTriviais() throws Exception {
         assertEquals(1, Fatorial.fatorialSoma(1));
-        assertEquals(2, Fatorial.fatorialSoma(2));
         assertEquals(6, Fatorial.fatorialSoma(3));
         assertEquals(24, Fatorial.fatorialSoma(4));
         assertEquals(120, Fatorial.fatorialSoma(5));

@@ -1,6 +1,6 @@
 package br.ufg.inf.es.construcao.matematica.fatorial;
 
-//import br.ufg.inf.es.construcao;
+import br.ufg.inf.es.construcao.produto.Produto;
 
 /**
  * Created by alunoinf on 05/11/15.
@@ -15,9 +15,8 @@ public class Fatorial {
         int i = 2;
         int f = 1;
 
-        while (i < n){
-            // f = Produto.produto(f, i);
-            f = f * i;
+        while (i <= n){
+            f = Produto.produto(f, i);
             i = i + 1;
         }
 

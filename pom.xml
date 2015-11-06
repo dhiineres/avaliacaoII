@@ -29,6 +29,7 @@
 		<module>algoritmo16</module>
 		<module>algoritmo17</module>
 		<module>algoritmo18</module>
+		<module>algoritmo19</module>
     </modules>
 
     <build>

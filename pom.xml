@@ -36,6 +36,8 @@
 		<module>algoritmo23</module>
 		<module>algoritmo22</module>
 		<module>algoritmo24</module>
+		<module>algoritmo25</module>
+		
     </modules>
 
     <build>

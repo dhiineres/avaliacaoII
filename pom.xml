@@ -34,6 +34,7 @@
 		<module>algoritmo21</module>
 		<module>algoritmo27</module>
 		<module>algoritmo23</module>
+		<module>algoritmo22</module>
     </modules>
 
     <build>

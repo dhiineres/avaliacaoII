@@ -17,33 +17,23 @@ public class Permutacao {
      * @param result uma lista de resultados possíveis;
      * @return a lista de resultantes da permutação;
      */
-    public static List<char[]> permuta(char[] p, char[] S, List<char[]> result){
-        if (S == null){
-            throw new IllegalArgumentException("Vetor S invalido");
+    public static List<String> permuta(
+            String p, String S, List<String> result) {
+
+        if (S.length() == 1) {
+            result.add(p + S);
+            return result;
         }
 
-        if (S.length == 1){
-            char[] fim = new char[S.length + p.length];
-            System.arraycopy(fim, 0, p, 0, p.length);
-            System.arraycopy(fim, p.length, S, 0, 1);
-            result.add(fim);
-        }
+        for (int i = 0; i < S.length(); i++) {
+            char cI = S.charAt(i);
 
-        else {
-            for (int i = 0; i < S.length; i++){
-                char[] Sl = new char[S.length - 1];
-                char[] pl = new char[p.length + 1];
-                for (int j = 0; j < S.length; j++){
-                    int k = 0;
-                    if (j == i){
-                        System.arraycopy(pl, 0, S[i], 0, 1);
-                    } else {
-                        Sl[k] = S[i];
-                        k = k + 1;
-                    }
-                }
-                permuta(pl, Sl, result);
-            }
+            StringBuilder sLinha = new StringBuilder(S);
+            sLinha.deleteCharAt(i);
+
+            String pLinha = p + cI;
+
+            permuta(pLinha, sLinha.toString(), result);
         }
 
         return result;

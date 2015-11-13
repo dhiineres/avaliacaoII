@@ -6,14 +6,14 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 import java.util.List;
 
 /**
- * Algoritmo que realiza a permutação em um vetor de caracteres;
+ * Algoritmo que realiza a permutação em uma string de n caracteres;
  */
 public class Permutacao {
 
     /**
      * realiza a permutação;
      * @param p prefixo da permutação;
-     * @param S Array a ser permutado
+     * @param S String a ser permutado
      * @param result uma lista de resultados possíveis;
      * @return a lista de resultantes da permutação;
      */

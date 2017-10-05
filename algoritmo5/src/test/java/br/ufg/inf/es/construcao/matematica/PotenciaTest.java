@@ -1,6 +1,5 @@
 package br.ufg.inf.es.construcao.matematica;
 
-import com.sun.deploy.association.AssociationService;
 import org.junit.Test;
 
 import org.junit.Assert;

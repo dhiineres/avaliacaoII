@@ -32,12 +32,12 @@
 		<module>algoritmo19</module>
 		<module>algoritmo20</module>
 		<module>algoritmo21</module>
-		<module>algoritmo27</module>
-		<module>algoritmo23</module>
 		<module>algoritmo22</module>
+		<module>algoritmo23</module>
 		<module>algoritmo24</module>
 		<module>algoritmo25</module>
 		<module>algoritmo26</module>
+		<module>algoritmo27</module>
 		<module>algoritmo28</module>
 		<module>algoritmo29</module>
 		<module>algoritmo30</module>
@@ -83,4 +83,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+	
+	<reporting>
+	<plugins>
+		<plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>javancss-maven-plugin</artifactId>
+			<version>2.1</version>
+			</plugin>
+		</plugins>
+	</reporting>
 </project>
